@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* styles.scss */
+/* Variables */
+/* Color principal */
+/* Color secundario */
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #3e3e3e;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Secciones */
+.cocina-principal h1 {
+  text-align: center;
+}
+
+section {
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+section h2 {
+  color: #3e3e3e;
+  margin-bottom: 20px;
+}
+section p {
+  line-height: 1.5;
+}
+
+/* Formulario de contacto */
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+form input[type=text],
+form input[type=email],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form input[type=text]:focus,
+form input[type=email]:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #3e3e3e;
+}
+form button[type=submit] {
+  background-color: #3e3e3e;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button[type=submit]:hover {
+  background-color: #252525;
+}
+
+/* Pie de página */
+footer {
+  background-color: #3e3e3e;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
