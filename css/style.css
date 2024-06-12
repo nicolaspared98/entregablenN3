@@ -34,19 +34,30 @@ header nav ul li a:hover {
 }
 
 /* Secciones */
-.cocina-principal h1 {
-  text-align: center;
+section img {
+  display: flex;
+  flex-grow: 1;
+  max-width: 100%; /* Establece un ancho máximo para las imágenes */
+  height: auto; /* Mantén la proporción de aspecto */
+  margin-right: 10px; /* Añade un margen entre las imágenes */
+  padding: 10px;
 }
 
 section {
   padding: 40px;
   background-color: #f9f9f9;
 }
-section h2 {
+
+h1 {
+  color: red;
+}
+
+h2 {
   color: #3e3e3e;
   margin-bottom: 20px;
 }
-section p {
+
+p {
   line-height: 1.5;
 }
 
