@@ -1,107 +1,12 @@
 /* styles.scss */
+@import "../scss/reset";
+@import "../scss/header";
+@import "../scss/seccion";
+@import "../scss/formulario";
+@import "../scss/footer";
+
+
 
 /* Variables */
 $color-primario: #3e3e3e; /* Color principal */
 $color-secundario: #ffffff; /* Color secundario */
-
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-/* Encabezado */
-header {
-    background-color: $color-primario;
-    color: $color-secundario;
-    padding: 20px;
-    text-align: center;
-    nav {
-        ul {
-            list-style-type: none;
-            padding: 0;
-            li {
-                display: inline;
-                margin-right: 20px;
-                a {
-                    color: $color-secundario;
-                    text-decoration: none;
-                    &:hover {
-                        text-decoration: underline;
-                    }
-                }
-            }
-        }
-    }
-}
-
-/* Secciones */
-section img {
-    display: flex;
-    flex-grow: 1;
-      max-width: 100%; /* Establece un ancho máximo para las imágenes */
-      height: auto; /* Mantén la proporción de aspecto */
-      margin-right: 10px; /* Añade un margen entre las imágenes */
-      padding: 10px;
-  }
-
-section {
-    padding: 40px;
-    background-color: #f9f9f9;
-   
-    }
-    h1{
-        color: red;
-    }
-    
-    
-
-    h2 {
-        color: $color-primario;
-        margin-bottom: 20px;
-    }
-    p {
-        line-height: 1.5;
-    }
-
-
-/* Formulario de contacto */
-form {
-    label {
-        display: block;
-        margin-bottom: 10px;
-    }
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 20px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        &:focus {
-            outline: none;
-            border-color: $color-primario;
-        }
-    }
-    button[type="submit"] {
-        background-color: $color-primario;
-        color: $color-secundario;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 5px;
-        cursor: pointer;
-        &:hover {
-            background-color: darken($color-primario, 10%);
-        }
-    }
-}
-
-/* Pie de página */
-footer {
-    background-color: $color-primario;
-    color: $color-secundario;
-    padding: 20px;
-    text-align: center;
-}

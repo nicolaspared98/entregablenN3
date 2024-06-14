@@ -1,6 +1,7 @@
-@charset "UTF-8";
+
 /* styles.scss */
 /* Variables */
+
 /* Color principal */
 /* Color secundario */
 /* Estilos generales */
@@ -49,7 +50,7 @@ section {
 }
 
 h1 {
-  color: red;
+  text-align: center;
 }
 
 h2 {

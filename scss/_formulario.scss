@@ -1,0 +1,33 @@
+/* Variables */
+$color-primario: #3e3e3e; /* Color principal */
+$color-secundario: #ffffff; /* Color secundario */
+form {
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        &:focus {
+            outline: none;
+            border-color: $color-primario;
+        }
+    }
+    button[type="submit"] {
+        background-color: $color-primario;
+        color: $color-secundario;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+            background-color: darken($color-primario, 10%);
+        }
+    }
+}
