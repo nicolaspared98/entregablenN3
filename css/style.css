@@ -1,10 +1,6 @@
 
 /* styles.scss */
-/* Variables */
 
-/* Color principal */
-/* Color secundario */
-/* Estilos generales */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -38,9 +34,9 @@ header nav ul li a:hover {
 section img {
   display: flex;
   flex-grow: 1;
-  max-width: 100%; /* Establece un ancho máximo para las imágenes */
-  height: auto; /* Mantén la proporción de aspecto */
-  margin-right: 10px; /* Añade un margen entre las imágenes */
+  max-width: 100%; /* ancho máximo para las imágenes */
+  height: auto; /* proporción de aspecto */
+  margin-right: 10px; /*margen entre las imágenes */
   padding: 10px;
 }
 
