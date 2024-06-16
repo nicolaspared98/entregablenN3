@@ -1,18 +1,17 @@
-/* Variables */
-$color-primario: #3e3e3e; /* Color principal */
-$color-secundario: #ffffff; /* Color secundario */
+@import "../utilidades/variables";
 
 section img {
     display: flex;
     flex-grow: 1;
       max-width: 100%; /* ancho máximo para las imágenes */
       height: auto; /*  proporción de aspecto */
-      margin-right: 10px; /*  margen entre las imágenes */
+      margin-right: 25px; /*  margen entre las imágenes */
       padding: 10px;
+      
   }
 section h1{
     text-align: center;
-    margin-bottom: 2px;
+    margin-bottom: 25px;
 }
 section {
     padding: 40px;
@@ -21,7 +20,7 @@ section {
     }
     h1{
         color: black;
-        margin-left: 2px;
+        margin-left: 25px;
     }
    
     

@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    .body {
+        font-size: 14px; 
+        width: 90%;
+        display: flex;
+    flex-grow: 1;
+      max-width: 100%; /* ancho máximo para las imágenes */
+      height: auto; /*  proporción de aspecto */
+      margin-right: 25px; /*  margen entre las imágenes */
+      padding: 10px;
+    }
+    header{
+        @extend .body
+    }
+    .seccion{
+        @extend .body
+
+    }
+    .inicio{
+        @extend .body
+    }
+    .nosotros{
+        @extend .body
+    }
+    .servicios {
+        @extend .body
+    }
+    
+}

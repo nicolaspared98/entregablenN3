@@ -1,6 +1,4 @@
-/* Variables */
-$color-primario: #3e3e3e; /* Color principal */
-$color-secundario: #ffffff; /* Color secundario */
+@import "../utilidades/variables";
 
 
 header {
@@ -29,5 +27,8 @@ header {
 }
 header h1{
     color: black;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    
 
 }

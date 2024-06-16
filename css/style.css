@@ -1,64 +1,19 @@
-
-/* styles.scss */
-
-body {
-  font-family: Arial, sans-serif;
+@charset "UTF-8";
+/* Variables */
+/* Color principal */
+/* Color secundario */
+* {
   margin: 0;
   padding: 0;
 }
 
-/* Encabezado */
-header {
-  background-color: #3e3e3e;
-  color: #ffffff;
-  padding: 20px;
-  text-align: center;
-}
-header nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-header nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-header nav ul li a {
-  color: #ffffff;
-  text-decoration: none;
-}
-header nav ul li a:hover {
-  text-decoration: underline;
+body {
+  font-family: "arial , helvetica";
 }
 
-/* Secciones */
-section img {
-  display: flex;
-  flex-grow: 1;
-  max-width: 100%; /* ancho máximo para las imágenes */
-  height: auto; /* proporción de aspecto */
-  margin-right: 10px; /*margen entre las imágenes */
-  padding: 10px;
-}
-
-section {
-  padding: 40px;
-  background-color: #f9f9f9;
-}
-
-h1 {
-  text-align: center;
-}
-
-h2 {
-  color: #3e3e3e;
-  margin-bottom: 20px;
-}
-
-p {
-  line-height: 1.5;
-}
-
-/* Formulario de contacto */
+/* Variables */
+/* Color principal */
+/* Color secundario */
 form label {
   display: block;
   margin-bottom: 10px;
@@ -90,12 +45,129 @@ form button[type=submit]:hover {
   background-color: #252525;
 }
 
-/* Pie de página */
+/* Variables */
+/* Color principal */
+/* Color secundario */
 footer {
   background-color: #3e3e3e;
   color: #ffffff;
   padding: 20px;
   text-align: center;
+}
+
+/* Variables */
+/* Color principal */
+/* Color secundario */
+header {
+  background-color: #3e3e3e;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+header h1 {
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+/* Variables */
+/* Color principal */
+/* Color secundario */
+section img {
+  display: flex;
+  flex-grow: 1;
+  max-width: 100%; /* ancho máximo para las imágenes */
+  height: auto; /*  proporción de aspecto */
+  margin-right: 25px; /*  margen entre las imágenes */
+  padding: 10px;
+}
+
+section h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+section {
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: black;
+  margin-left: 25px;
+}
+
+h2 {
+  color: #3e3e3e;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* Variables */
+/* Color principal */
+/* Color secundario */
+h1 {
+  color: #3e3e3e;
+}
+
+h2 {
+  text-align: center;
+  font-family: "arial , helvetica";
+}
+
+p {
+  font-family: "arial , helvetica";
+  text-align: center;
+}
+
+/* Variables */
+/* Color principal */
+/* Color secundario */
+h2 {
+  font-family: "arial , helvetica";
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+/* Variables */
+/* Color principal */
+/* Color secundario */
+/* Variables */
+/* Color principal */
+/* Color secundario */
+/* Variables */
+/* Color principal */
+/* Color secundario */
+/* Variables */
+/* Color principal */
+/* Color secundario */
+h2 {
+  font-family: "arial , helvetica";
+}
+
+ul li {
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

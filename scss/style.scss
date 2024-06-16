@@ -1,12 +1,20 @@
-/* styles.scss */
-@import "../scss/reset";
-@import "../scss/header";
-@import "../scss/seccion";
-@import "../scss/formulario";
-@import "../scss/footer";
+
+
+@import "base/reset";
+@import "../scss/componentes/formulario";
+@import "../scss/layout/footer";
+@import "../scss/layout/header";
+@import "../scss/layout/seccion";
+@import "../scss/layout/cocina-principal.scss";
+@import "../scss/layout/servicios.scss";
+@import "../scss/utilidades/variables";
+@import "../scss/layout/inicio.scss";
+@import "../scss/layout/nosotros.scss";
+@import "../scss/layout/servicios.scss"
 
 
 
-/* Variables */
-$color-primario: #3e3e3e; /* Color principal */
-$color-secundario: #ffffff; /* Color secundario */
+
+
+
+

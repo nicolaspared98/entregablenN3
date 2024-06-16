@@ -1,6 +1,4 @@
-/* Variables */
-$color-primario: #3e3e3e; /* Color principal */
-$color-secundario: #ffffff; /* Color secundario */
+@import "../utilidades/variables";
 form {
     label {
         display: block;
